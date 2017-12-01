@@ -10,7 +10,7 @@
    <children>
       <ImageView fitHeight="600.0" fitWidth="1000.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
-            <Image url="@../../../../../Public/Pictures/Sample%20Pictures/Desert.jpg" />
+            <Image url="@../vista/assets/images/Desert.jpg" />
          </image>
          <effect>
             <InnerShadow />

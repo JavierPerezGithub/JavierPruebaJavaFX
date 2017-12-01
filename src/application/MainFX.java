@@ -6,7 +6,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 import javafx.fxml.FXMLLoader;
-
+/**
+ * The main class
+ * @author Javier Pérez
+ * @version 1-2017
+ * @since 01-12-2017
+ * @see ControlFX
+ */
 
 public class MainFX extends Application {
 	@Override

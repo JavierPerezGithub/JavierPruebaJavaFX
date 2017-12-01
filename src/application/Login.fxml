@@ -41,7 +41,7 @@
                               <Font size="13.0" />
                            </font>
                         </JFXToggleButton>
-                        <JFXButton fx:id="idVentana" buttonType="RAISED" layoutX="175.0" layoutY="508.0" onAction="#abreVentana" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="GET STARTED" textFill="#92769a" />
+                        <JFXButton fx:id="idVentana" buttonType="RAISED" layoutX="175.0" layoutY="508.0" onMouseClicked="#abreVentana" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="GET STARTED" textFill="#92769a" />
                         <Label alignment="CENTER" layoutX="126.0" layoutY="45.0" prefHeight="75.0" prefWidth="98.0" style="-fx-background-radius: 50px; -fx-background-color: WHITE;" text="JPJ" textFill="#f50909">
                            <font>
                               <Font size="36.0" />

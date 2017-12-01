@@ -8,6 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -22,7 +23,7 @@ import javafx.stage.Stage;
     	 * @param event the event
     	 */
     	@FXML
-	    void abreVentana(ActionEvent event) {
+	    void ventana() {
 	    	try {
 	    		   // Load the fxml file and create a new stage for the popup.
 	    		
@@ -38,6 +39,14 @@ import javafx.stage.Stage;
 	    		   e.printStackTrace();
 	    		  }
 	    }
+    	@FXML
+        void abreVentana(MouseEvent event) {
+    		ventana();
+        }
+    	@FXML
+        void cerrarVentana(MouseEvent event) {
+    		System.exit(0);
+        }
 	}
 	    
 

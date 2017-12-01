@@ -7,13 +7,9 @@ import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.ImageCursor;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import javafx.stage.Window;
 
 	public class ControlFX {
 
@@ -37,7 +33,6 @@ import javafx.stage.Window;
 	    		   Scene scene=new Scene(page);
 	    		   sendStage.setScene(scene);
 	    		   sendStage.show();
-	    		   System.out.println("second stage ok");
 
 	    		  } catch (IOException e) {
 	    		   e.printStackTrace();
